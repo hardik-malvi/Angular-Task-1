@@ -1,27 +1,24 @@
-# NewTask
+Performed The below task for Angular tachnical round.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Angular Practical
+ Implement firebase login
+After the user is logged in
+1. User should be able to create/edit/delete task
+2. User should be able to mark task as pending, completed
+3. All the task data should be stored in localstorage or browser database and accessed via service
+4. Use necessary guards and services
+5. Auth module should be different than task module
+6. Lazy loading should be implemented
+7. All the code should pass linting
+8. Code structure and commenting should be present in all places.
+UI Instructions
+ After login, user should be redirected to tasks page
+ Task page will have three sections one above another
+ 1 st sections shows statistics. Ie. Total number of pending tasks and total number of completed
+tasks.
+ 2 nd section will have all pending tasks (should be able to search task too)
+ 3 rd section will have all completed tasks (should be able to search task too)
+ Tasks can be moved from pending to completed and viceversa
+How do you submit the code?
+• Create the git repository for the practical tasks. Please share repositories public link to download
+the practical tasks.
